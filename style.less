@@ -1,0 +1,34 @@
+.filter-bar {
+    &__item {
+        margin: 0.7em;
+        display: inline-block;
+
+        &-label {
+            margin-right: 0.5em;
+        }
+    }
+
+    .el-input {
+        width: unset;
+    }
+    
+}
+
+.common-table{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    .el-loading-mask{
+        z-index: 100;
+    }
+
+    .filter-bar {
+        margin-bottom: 1em;
+    }
+
+    .el-pagination{
+        margin-top: 1em;
+        padding-bottom: 1em;
+    }
+}
