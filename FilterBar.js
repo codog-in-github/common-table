@@ -1,4 +1,4 @@
-import { isEmpty, isFunction } from "@/lib/check"
+import { isEmpty, isFunction } from "./utils"
 import './style.less'
 
 export default {

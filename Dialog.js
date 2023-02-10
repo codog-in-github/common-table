@@ -1,4 +1,4 @@
-import { isArray, isFunction } from "@/lib/check"
+import { isArray, isFunction } from "./utils"
 
 const dataTypes = {
     number(val) {
