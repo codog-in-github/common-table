@@ -20,6 +20,8 @@
  *      tableProps {object}   传递给 el-table 的props
  *      filters    {object[]} 过滤器字段 详见 ./FilterBar.js
  *      noPage     {boolean}  数据是否分页 default false
+ *      listAPI    {function} 返回表格数据的函数
+ *          参数 filterbar结果 returns Promise<表格数据>
  *      fetched    {function} 获取数据后的钩子函数 表格数据会被替换为该函数的返回值
  *      selectable {boolean}  是否显示多选框 可以通过 selectedRows访问被选中列
  *      fieldMap   {object}   字段名称对应关系
