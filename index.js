@@ -47,8 +47,8 @@
  *         slotscoped参数
  *         onSearch {void => void} 搜索回调
  */
-import { isFunction } from "@/lib/check"
-import { objectMerge } from "@/lib/util"
+import { isFunction } from "./utils"
+import { objectMerge } from "./utils"
 import FilterBar from "./FilterBar"
 import './style.less'
 
